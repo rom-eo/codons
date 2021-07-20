@@ -1,0 +1,122 @@
+<html>
+
+<head>
+<style type="text/css">
+body {
+    background: #eeeeee;
+}
+.panel {
+    display: block;
+    background: #ffffff;
+    min-height: 50px;
+    // height: 100px;
+    box-shadow:0px 0px 5px 5px #C9C9C9;
+    -webkit-box-shadow:2px 2px 5px 5x #C9C9C9;
+    -moz-box-shadow:2px 2px 5px 5px #C9C9C9;
+    margin: 10px;
+    padding: 10px;
+}
+.panel1 {
+    min-width: 100px;
+    width: 45%;
+    //position: fixed;
+    height: 600px;
+    //display: flex;
+    //top: 0;
+}
+.panel2 {
+    min-width: 90%;
+    width: 95%;
+    
+}
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 95%; /* Set full-width to expand the whole page */
+    background: #ffffff;
+    min-height: 100px;
+    // height: 100px;
+    box-shadow:0px 0px 5px 5px #C9C9C9;
+    -webkit-box-shadow:2px 2px 5px 5x #C9C9C9;
+    -moz-box-shadow:2px 2px 5px 5px #C9C9C9;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+    padding:20px;
+}
+.col-left {
+    display: table-cell; 
+border-right: 6px  solid black;
+}
+</style>
+</head>
+
+<body>
+	
+	<div class="col-container">
+	
+<div class="col-left">
+   <h1> Factoriel</h1>
+    <h2> Description </h2>
+    
+    <div>
+        Ecrire une function qui retourne
+Le factoriel d'un entier naturel n.
+
+<h3> Exemple 1</h3>
+Entree: 3
+</br>
+Sortie: 6
+</br>
+Expliquation: 3! = 1x2x3 = 6
+
+<h3> Exemple 2</h3>
+Entree: 5
+</br>
+Sortie: 120
+</br>
+Expliquation: 5! = 1x2x3x4x5 = 120
+
+<h3> Type de la function</h3>
+def factorial(n: int)--> int
+</br>
+Retourne un entier.
+</br>
+n: entier
+<h3> Contraintes</h3>
+n>= 1
+</br>
+    </div>
+</div>
+<div class="col">
+ <h2> Votre solution </h2>
+    <div>
+		
+		
+<form action="/valider" method='POST'>
+<label for="w3review">Completer le code suivant::</label>
+<textarea id="w3review" name="code" rows="30" cols="50">
+def factorial(n): 
+  </textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+        
+    </div>
+
+</div>
+</div> 
+ 	<br>
+<div class="panel panel2" style="word-spacing: 50em;">
+<a href="">Precedent</a>
+<a href="">Suivant</a>
+</div>
+</br>
+   
+    
+</body>
+
+    
+</html>

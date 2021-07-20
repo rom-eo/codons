@@ -1,0 +1,118 @@
+<html>
+
+<head>
+<style type="text/css">
+body {
+    background: #eeeeee;
+}
+.panel {
+    display: block;
+    background: #ffffff;
+    min-height: 50px;
+    // height: 100px;
+    box-shadow:0px 0px 5px 5px #C9C9C9;
+    -webkit-box-shadow:2px 2px 5px 5x #C9C9C9;
+    -moz-box-shadow:2px 2px 5px 5px #C9C9C9;
+    margin: 10px;
+    padding: 10px;
+}
+.panel1 {
+    min-width: 100px;
+    width: 45%;
+    //position: fixed;
+    height: 600px;
+    //display: flex;
+    //top: 0;
+}
+.panel2 {
+    min-width: 90%;
+    width: 95%;
+    
+}
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 95%; /* Set full-width to expand the whole page */
+    background: #ffffff;
+    min-height: 100px;
+    // height: 100px;
+    box-shadow:0px 0px 5px 5px #C9C9C9;
+    -webkit-box-shadow:2px 2px 5px 5x #C9C9C9;
+    -moz-box-shadow:2px 2px 5px 5px #C9C9C9;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+    padding:20px;
+}
+.col-left {
+    display: table-cell; 
+border-right: 6px  solid black;
+}
+</style>
+</head>
+
+<body>
+	
+	<div class="col-container">
+	
+<div class="col-left">
+   <h1> Inverser une liste</h1>
+    <h2> Description </h2>
+    
+    <div>
+        Ecrire une function qui inverse une liste sur place.
+
+<h3> Exemple 1</h3>
+Entree: [1, 2, 4, 0]
+</br>
+Sortie: la liste devient [0, 4, 2, 1]
+</br>
+Expliquation: la liste est lu  l'envers
+
+<h3> Exemple 2</h3>
+Entree: [5]
+</br>
+Sortie: la liste reste [5] 
+
+<h3> Type de la function</h3>
+def reverse_list(a:List[int]):--> None
+</br>
+Retourne rien.
+</br>
+n: entier
+<h3> Contraintes</h3>
+len(a)>= 1
+</br>
+L'algorithm doitt avoir une complexite d'espace en O(1) 
+    </div>
+</div>
+<div class="col">
+ <h2> Votre solution </h2>
+    <div>
+<form action="/action_page.php">
+<label for="w3review">Completer le code suivant::</label>
+<textarea id="w3review" name="problem10" rows="30" cols="50">
+def reverse_list(aList):
+  </textarea>
+  <br><br>
+  <input type="submit" value="Soumettre">
+</form>
+        
+    </div>
+
+</div>
+</div> 
+ 	<br>
+<div class="panel panel2" style="word-spacing: 50em;">
+<a href="">Precedent</a>
+<a href="">Suivant</a>
+</div>
+</br>
+   
+    
+</body>
+
+    
+</html>
