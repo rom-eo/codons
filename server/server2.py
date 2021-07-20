@@ -15,14 +15,7 @@ def hello_world():
 def probleme(number): 
    return render_template('problem'+number+'.html', name = number)
 
-@contextlib.contextmanager
-def stdoutIO(stdout=None):
-    old = sys.stdout
-    if stdout is None:
-        stdout = StringIO()
-    sys.stdout = stdout
-    yield stdout
-    sys.stdout = old
+ 
 
 @app.route('/valider', methods=['POST'])
 def val():
